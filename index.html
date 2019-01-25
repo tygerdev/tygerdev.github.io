@@ -1,33 +1,449 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Test Landing Page</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
+<!doctype html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tyger - Sports Network</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/applify.min.css"/>
+</head>
+<body class="ui-transparent-nav" data-fade_in="on-load">
+
+	<!-- Navbar Fixed + Default -->
+    <nav class="navbar navbar-fixed-top transparent navbar-light bg-white">
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+		
+			<!-- Navbar Logo -->
+			<a class="ui-variable-logo navbar-brand" href="index.html" title="Tyger - Sports Network">
+				<!-- Default Logo -->
+				<img class="logo-default" src="assets/img/tyger-logo-min-tiny.png" alt="Tyger" data-uhd>
+				<!-- Transparent Logo -->
+				<img class="logo-transparent" src="assets/img/tyger-logo-min-tiny.png" alt="Tyger" data-uhd>
+			</a><!-- .navbar-brand -->
+
+			<!-- Navbar Navigation -->
+			<div class="ui-navigation navbar-right">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#" data-scrollto="what-is-tyger">What Is Tyger</a>
+					</li>
+					<li>
+						<a href="#" data-scrollto="how-it-works">How It Works</a>
+					</li>
+					<!-- Nav Item -->
+					<li>
+						<a href="#" data-scrollto="sports">Sports</a>
+					</li>
+					<!-- Nav Item -->
+					<li>
+						<a href="#" data-scrollto="contact-us">Contact Us</a>
+					</li>
+				</ul><!--.navbar-nav -->
+			</div><!--.ui-navigation -->
+
+			<!-- Navbar Button -->
+			<a href="#" data-scrollto="tilted-banner" class="btn btn-sm ui-gradient-peach pull-right">Download</a>
+
+			<!-- Navbar Toggle -->
+			<a href="#" class="ui-mobile-nav-toggle pull-right"></a>
+
+		</div><!-- .container -->
+	</nav> <!-- nav -->
+	
+	<!-- Main Wrapper -->
+    <div class="main" role="main">
+    	
+    	<!-- Curve Hero -->
+		<div class="ui-hero hero-lg ui-curve ui-gradient-peach">
+			<!--background: linear-gradient(135deg, #e54c42 0%, #e57542 100%);-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" data-vertical_center="true" data-vertical_offset="16">
+						<h1 class="heading animate" data-show="fade-in-up-big" data-delay="100">
+							Lorem ipsum dolor sit amet
+						</h1>
+						<p class="paragraph animate" data-show="fade-in-up-big" data-delay="400">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+						</p>
+						<div class="actions animate" data-show="fade-in-up-big" data-delay="600">
+						</div>
+					</div>
+					<div class="col-md-6 animate" data-show="fade-in-left" data-delay="400">
+						<img src="assets/img/mockups/applify-mockup-2-lg.png" alt="Tyger" data-uhd data-max_width="547" class="responsive-on-sm" />
+					</div>
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .ui-hero -->
+
+		<div id="what-is-tyger"  class="section">
+			<div class="container ui-icon-blocks ui-blocks-h icons-lg">
+				<div class="section-heading center">
+					<h2 class="heading tyger-orange">
+						What Is Tyger
+					</h2>
+					<p class="paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+					</p>
+				</div><!-- .section-heading -->
+				<div class="row">
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg icon-circle icon-rocket text-blue"></div>
+						<h4>Point 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg icon-circle icon-ghost text-lime"></div>
+						<h4>Point 2</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
+					<div class="col-sm-4 ui-icon-block">
+						<div class="icon icon-lg icon-circle icon-trophy text-indigo"></div>
+						<h4>Point 3</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						</p>
+					</div>
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+
+  		<!-- Accordion Showcase Section -->
+   		<div id="how-it-works" class="section bg-light">
+   			<div class="container">
+   				<!-- Section Heading -->
+   				<div class="section-heading center">
+   					<h2 class="heading tyger-orange">
+   						How It Works
+   					</h2>
+   					<p class="paragraph">
+   						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+   					</p>
+   				</div><!-- .section-heading -->
+   				<!-- UI Accordion Showcase -->
+   				<div class="ui-accordion-showcase row">
+   				
+   					<!-- Device Slider Column -->
+   					<div class="col-lg-6 col-md-5 animate" data-show="fade-in-left">
+   						<!-- Device Slider -->
+   						<div class="ui-device-slider">
+   							<!-- Device Image -->
+   							<div class="device">
+   								<img src="assets/img/device-slider/device.png" data-uhd alt="Applify - App Landing HTML Template" />
+   							</div>
+   							<!-- Slider Images -->
+   							<div id="device-slider-1" class="screens owl-carousel owl-theme">
+   								<div class="item">
+   									<img src="assets/img/device-slider/app-screen.jpg" data-uhd alt="Applify - App Landing HTML Template" />	
+   								</div>
+   								<div class="item">
+   									<img src="assets/img/device-slider/app-screen.jpg" data-uhd alt="Applify - App Landing HTML Template" />	
+   								</div>
+   								<div class="item">
+   									<img src="assets/img/device-slider/app-screen.jpg" data-uhd alt="Applify - App Landing HTML Template" />	
+   								</div>
+   								<div class="item">
+   									<img src="assets/img/device-slider/app-screen.jpg" data-uhd alt="Applify - App Landing HTML Template" />	
+   								</div>
+   							</div>
+   						</div><!-- .ui-device-slider -->
+   					</div><!-- Device Slider Column -->
+   					
+   					<!-- Accordion Column -->
+   					<div class="col-lg-6 col-md-7" data-vertical_center="true">
+   						<!-- Accordion -->
+						<div class="ui-accordion-panel">  
+							<!-- Accordion 1  -->
+							<div class="ui-card shadow-md ui-accordion">
+								<h6 class="toggle" data-toggle="accordion-one" data-toggle_screen="1" data-toggle_slider="device-slider-1">
+									<span class="icon icon-wrench"></span> 
+									Lorem Ipsum Dolor Sit
+								</h6>
+								<div class="body show" data-accord="accordion-one">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Learn more.</a></p>
+								</div>
+							</div>
+							<!-- Accordion 2  -->
+							<div class="ui-card shadow-md ui-accordion">
+								<h6 class="toggle" data-toggle="accordion-two" data-toggle_screen="2" data-toggle_slider="device-slider-1">
+									<span class="icon icon-camera"></span> 
+									Amet Consectetur Adipisicing
+								</h6>
+								<div class="body" data-accord="accordion-two">
+									<p>Donec elementum ligula eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem. Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer lectus nisi, facilisis sit amet eleifend nec. <a href="#">Learn more.</a></p>
+								</div>
+							</div>
+							<!-- Accordion 3  -->
+							<div class="ui-card shadow-md ui-accordion">
+								<h6 class="toggle" data-toggle="accordion-three" data-toggle_screen="3" data-toggle_slider="device-slider-1">
+									<span class="icon icon-diamond"></span>
+									Elit Sed Do Eiusmo
+								</h6>
+								<div class="body" data-accord="accordion-three">
+									<p>Aliquam erat volutpat. Maecenas scelerisque, orci sit amet cursus tincidunt, libero nisl eleifend tortor, vitae cursus risus mauris vitae nisi. Cras laoreet ultrices ligula eget tempus. <a href="#">Learn more.</a></p>
+								</div>
+							</div>
+							<!-- Accordion 4  -->
+							<div class="ui-card shadow-md ui-accordion">
+								<h6 class="toggle" data-toggle="accordion-four" data-toggle_screen="4" data-toggle_slider="device-slider-1">
+									<span class="icon icon-settings"></span>
+									Ea Commodo Consequat
+								</h6>
+								<div class="body" data-accord="accordion-four">
+									<p>In hac habitasse platea dictumst. Pellentesque ornare blandit orci, eget tristique risus convallis ut. Vivamus a sapien neque. Morbi malesuada massa ac sapien luctus vulputate. <a href="#">Learn more.</a></p>
+								</div>
+							</div>
+
+						</div><!-- .ui-accordion-panel -->
+   					</div><!-- Accordion Column -->
+   					
+   				</div><!-- .row -->
+   			</div><!-- .container -->
+   		</div><!-- .section -->
+   		
+   		<!-- Video Section -->
+   		<div class="section bg-overlay bg-overlay-gradient-peach" data-uhd data-bg="assets/img/backgrounds/bg-1.jpg">
+   			<div class="container">
+   				<div class="section-heading center mb-0">
+   					<!-- * Replace data-video with your youtube video id -->
+   					<a class="ui-video-toggle" data-video="AcmarVpo2xE">
+   						<span class="icon ui-gradient-green fa fa-play"></span>
+   					</a>
+   					<h2 class="heading mt-4">
+   						Popup Video If any
+   					</h2>
+   					<p class="paragraph">
+   						Lorem ipsum dolor sit amet, consectetur adipisicing elit
+   					</p>
+   				</div><!-- .section-heading -->
+   			</div><!-- .container -->
+   		</div><!-- .section -->
+
+
+		<!--SPORTS-->
+		<div id="sports" class="section">
+			<div class="container ui-icon-blocks ui-blocks-h icons-md">
+				<div class="section-heading center">
+					<h2 class="heading" style="color: #fa663b">
+						Available Sports
+					</h2>
+					<p class="paragraph">
+						Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed Do Eiusmod Tempor Incididunt Ut.
+					</p>
+				</div><!-- .section-heading -->
+				<!-- Icon Blocks -->
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-6 ui-icon-block">
+						<div style="
+						    background-image: url(assets/icons/png/060-boxing.png);
+							background-size: cover;
+							background-repeat: no-repeat;
+							height: 10vh;
+							width: 10vh;
+							margin: auto;
+						"></div>
+						<h5 style="margin-top: 10px">MMA</h5>
+					</div>
+					<div class="col-md-4 col-sm-4 col-6 ui-icon-block">
+						<div style="
+						    background-image: url(assets/icons/png/039-golf-1.png);
+							background-size: cover;
+							background-repeat: no-repeat;
+							height: 10vh;
+							width: 10vh;
+							margin: auto;
+						"></div>
+						<h5 style="margin-top: 10px">Golf</h5>
+					</div>
+					<div class="col-md-4 col-sm-4 col-6 ui-icon-block">
+						<div style="
+						    background-image: url(assets/icons/png/032-karate.png);
+							background-size: cover;
+							background-repeat: no-repeat;
+							height: 10vh;
+							width: 10vh;
+							margin: auto;
+						"></div>
+						<h5 style="margin-top: 10px">Taekwondo</h5>
+					</div>
+					<div class="col-md-4 col-sm-4 col-6 ui-icon-block">
+						<div style="
+						    background-image: url(assets/icons/png/020-shuttlecock.png);
+							background-size: cover;
+							background-repeat: no-repeat;
+							height: 10vh;
+							width: 10vh;
+							margin: auto;
+						"></div>
+						<h5 style="margin-top: 10px">Badminton</h5>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-6 ui-icon-block">
+						<div style="
+						    background-image: url(assets/icons/swimming-figure.png);
+							background-size: cover;
+							background-repeat: no-repeat;
+							height: 10vh;
+							width: 10vh;
+							margin: auto;
+						"></div>
+						<h5 style="margin-top: 10px">Swimming</h5>
+					</div>
+					<div class="col-md-4 col-sm-4 col-6 ui-icon-block">
+						<div style="
+						    background-image: url(assets/icons/png/030-tennis.png);
+							background-size: cover;
+							background-repeat: no-repeat;
+							height: 10vh;
+							width: 10vh;
+							margin: auto;
+						"></div>
+						<h5 style="margin-top: 10px">Tennis</h5>
+					</div>
+				</div><!-- .ui-icon-block -->
+			</div><!-- .container -->
+		</div><!-- .section -->
+   		
+   		<!-- Call To Action Section -->
+   		<div id="tilted-banner" class="section ui-gradient-peach ui-section-tilt ui-action-section">
+   			<div class="container">
+   				<div class="row">
+   					<!-- Text Column -->
+   					<div class="col-lg-6 col-md-7 text-block">
+   						<!-- Section Heading -->
+   						<div id="download-section" class="section-heading">
+							<h2 class="heading">
+								Available on iOS and Android
+							</h2>
+							<p class="paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+							</p>
+							<div class="actions">
+								<a class="btn ui-gradient-green btn-app-store btn-download shadow-lg"><span>Available on the</span> <span>App Store</span></a>
+								<a class="btn ui-gradient-blue btn-google-play btn-download shadow-lg"><span>Available on </span> <span>Google Play</span></a>
+							</div>
+						</div><!-- .section-heading -->
+   					</div>
+   					<!-- Image Column -->
+   					<div class="col-lg-6 col-md-5 img-block animate" data-show="fade-in-left">
+   						<img src="assets/img/mockups/applify-mockup-2-lg.png" alt="Applify - App Landing HTML Template" data-uhd class="responsive-on-sm" data-max_width="547" />
+   					</div>
+   				</div><!-- .row -->
+   			</div><!-- .container -->
+   		</div><!-- .section -->
+   		
+
+   		<!-- Footer -->
+   		<footer id="contact-us" class="ui-footer contact-footer">
+  			<!-- Background Gradient Layer -->
+   			<div class="footer-bg">
+   				<div class="container">
+   					<div class="row">
+   						<!-- Contact Info -->
+   						<div class="col-md-7" style="margin:auto">
+   							<div class="ui-card form-card shadow-xl">
+								<div class="card-header pb-0 text-center">
+									<h3 class="heading">Contact Us</h3>
+								</div>
+								<div class="card-body">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-6">
+												<ul class="ui-icon-blocks ui-blocks-v">
+													<li class="ui-icon-block">
+														<span class="icon icon-clock"></span>
+														<p>Mon - Fri 08:00 - 19:00</p>
+													</li>
+													<li class="ui-icon-block">
+														<span class="icon icon-phone"></span>
+														<p>+10 111 0000</p>
+													</li>
+													<li class="ui-icon-block">
+														<span class="icon icon-envelope"></span>
+														<p>info@mail.com</p>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-6">
+												<ul class="ui-icon-blocks ui-blocks-v">
+													<li class="ui-icon-block">
+														<span class="icon icon-basket"></span>
+														<p>sales@mail.com</p>
+													</li>
+													<li class="ui-icon-block">
+														<span class="icon icon-pin"></span>
+														<p>101 Street Address, <br>Suburb, City, <br>0101</p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+   						</div>
+   					</div><!-- .row -->
+
+					<!-- Social Links -->
+					<div class="row">
+
+						<div class="text-center" style="margin: auto">
+							<div class="col-md-12">
+								<div style="margin: auto">
+									<div style="    background-image: url(assets/img/tyger-logo-min.png);
+																background-repeat: no-repeat;
+																background-size: cover;
+																height: 10vh;
+																width: 20vh;
+																margin: auto;
+														">
+									</div>
+								</div>
+							</div>
+							<div class="actions social-links">
+								<a class="btn ui-gradient-blue btn-circle shadow-md">
+									<span class="fa fa-facebook" style="color:white"></span>
+								</a>
+								<a class="btn ui-gradient-purple btn-circle shadow-md">
+									<span class="fa fa-instagram" style="color:white"></span>
+								</a>
+								<a class="btn ui-gradient-green btn-circle shadow-md">
+									<span class="fa fa-twitter" style="color:white"></span>
+								</a>
+								<a class="btn ui-gradient-purple btn-circle shadow-md">
+									<span class="fa fa-pinterest" style="color:white"></span>
+								</a>
+							</div>
+							<div style="color: transparent">Icons made by
+								<a style="color: transparent" href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a>
+								from
+								<a style="color: transparent" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+								is licensed by
+								<a style="color: transparent" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+							</div>
+							<!--<p>-->
+							<!--&copy; 2017 <a href="htpp://codeytech.com" target="_blank" title="Codeytech">Codeytech</a> All Rights Reserved-->
+							<!--</p>-->
+						</div>
+					</div>
+
+				</div><!-- .container -->
+   			</div><!-- .footer-bg -->
+   		</footer><!-- .ui-footer -->
+   		
+    </div><!-- .main -->
+    
+    <!-- Scripts -->
+	<script src="assets/js/libs/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/libs/slider-pro/jquery.sliderPro.min.js"></script>
+	<script src="assets/js/libs/owl.carousel/owl.carousel.min.js"></script>
+	<script src="assets/js/applify/ui-map.js"></script>
+	<script src="assets/js/libs/form-validator/form-validator.min.js"></script>
+	<script src="assets/js/libs/bootstrap.js"></script>
+	<script src="assets/js/applify/build/applify.js"></script>
+</body>
 </html>
