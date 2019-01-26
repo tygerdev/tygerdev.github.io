@@ -12937,7 +12937,7 @@ a:hover, .btn:hover {
   color: #FFF;
 }
 
-#tilted-banner::after {
+#download-banner::after {
   background-color: lightgray;
 }
 
