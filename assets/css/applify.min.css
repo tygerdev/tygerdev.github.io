@@ -14552,6 +14552,21 @@ body[data-fade_in="on-load"],
   padding: 2rem 0;
 }
 
+.partner-card {
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0
+}
+
+.logo-label {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 82px;
+  margin-top: -15px;
+  font-size: 18px;
+}
+
 @media (min-width: 576px) {
   .ui-hero.hero-lg {
     padding: 2rem 0;
@@ -14575,6 +14590,31 @@ body[data-fade_in="on-load"],
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .ui-hero.hero-lg .hero-points {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .logo-label {
+    /*display:none;*/
+    font-size: 12px !important;
+    margin-top: -8px !important;
+    left: 60px !important;
+  }
+
+  .partner-card {
+    margin: 10px;
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  #be-a-partner .container .row {
+    margin-bottom: 0 !important;
   }
 }
 
