@@ -14015,6 +14015,15 @@ body[data-fade_in="on-load"],
   }
 }
 
+@media (max-width: 739px) {
+  .g-play {
+    max-width: 110px !important;
+  }
+  .a-store {
+    max-width: 100px !important;
+  }
+}
+
 .btn-download {
   position: relative;
   padding-left: 4rem;
@@ -16152,6 +16161,13 @@ body.modal-open {
 
 .video-modal .close {
   color: #FFF;
+}
+
+@media (max-width: 767px) {
+  .video-background-thumbnail {
+    height: 220px !important;
+    width: 290px !important;
+  }
 }
 
 /**
